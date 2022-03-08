@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  go-eg:
+  - apiVersion: v2
+    created: "2022-03-08T11:51:14.689669386Z"
+    digest: de92a04468a2648429328e6db1ef40437db36303bca9e01056a178e76b6368a3
+    name: go-eg
+    type: application
+    urls:
+    - https://github.com/xmh19936688/helm-charts/releases/download/go-eg-1.0.0/go-eg-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-03-08T11:51:14.689674686Z"
