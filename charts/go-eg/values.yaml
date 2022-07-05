@@ -1,7 +1,7 @@
 host: "go.eg.ui"
 
 ui:
-  image: "docker.io/voidxmh/xmh-ui:v1"
+  image: "docker.io/voidxmh/xmh-ui"
   tag: "v1"
 
 auther:
