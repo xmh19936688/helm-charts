@@ -1,0 +1,8 @@
+# MacOS stuff.
+.DS_Store
+
+# GoLand IDE
+.idea/
+
+# vscode
+.vscode/
