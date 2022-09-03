@@ -15,7 +15,7 @@ If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
 void-xmh` to see the charts.
 
-To install the go-eg chart:
+To install chart, for example, `go-eg`:
 
 ```sh
 helm install my-go-eg void-xmh/go-eg
