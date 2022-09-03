@@ -1,0 +1,11 @@
+image: "docker.io/voidxmh/golang"
+tag: "1.19-alpine-dev"
+
+# node name to run pod
+nodeName: "node"
+
+# code path on host
+codePath: "/opt/code"
+
+# node port for dlv
+nodePort: 32345
