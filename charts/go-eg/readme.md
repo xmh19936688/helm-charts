@@ -2,14 +2,17 @@
 
 ## usage
 
+You can install it online:
+
 ```sh
-helm install go-eg ./charts \
-  -n go-eg \
-  --set host='go.eg' \
-  --set ui.image=core.harbor.domain/library/xmh-ui \
-  --set ui.tag=v1 \
-  --set auther.image=core.harbor.domain/library/xmh-auther \
-  --set auther.tag=v1 \
-  --set cacher.image=core.harbor.domain/library/xmh-cacher \
-  --set cacher.tag=v1
+helm repo add void-xmh https://xmh19936688.github.io/helm-charts
+helm install my-go-eg void-xmh/go-eg
+```
+
+or from source code:
+
+```sh
+helm install my-go-eg . \
+  -n my-go-eg \
+  --create-namespace
 ```
