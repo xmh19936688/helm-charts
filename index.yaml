@@ -1,5 +1,14 @@
 apiVersion: v1
 entries:
+  go-dev:
+  - apiVersion: v2
+    created: "2022-09-03T06:52:31.913705322Z"
+    digest: 76a7b048535ad2af670ae98a51b297eeb92fbc733f2bbbc918bc641173f70ae9
+    name: go-dev
+    type: application
+    urls:
+    - https://github.com/xmh19936688/helm-charts/releases/download/go-dev-1.0.1/go-dev-1.0.1.tgz
+    version: 1.0.1
   go-eg:
   - apiVersion: v2
     created: "2022-09-03T05:51:27.895063029Z"
@@ -17,4 +26,4 @@ entries:
     urls:
     - https://github.com/xmh19936688/helm-charts/releases/download/go-eg-1.0.0/go-eg-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-03T05:51:27.895071229Z"
+generated: "2022-09-03T06:52:31.913719222Z"
